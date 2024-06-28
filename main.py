@@ -3,7 +3,7 @@ from flask_cors import CORS, cross_origin
 import PyPDF2 as pypdf
 app = Flask(__name__)
 
-cors  = CORS(app, origins=["http://localhost:3000", "localhost:3000", "https://gemini-project-dc4usdqtv-sammyodiagbes-projects.vercel.app", "gemini-project-dc4usdqtv-sammyodiagbes-projects.vercel.app"])
+cors  = CORS(app, origins=["http://localhost:3000", "localhost:3000", "https://www.rafikiai.app", "rafikiai.app", "www.rafikiai.app"])
 
 
 @app.route("/", methods=["GET"])
